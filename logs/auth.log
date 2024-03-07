@@ -1,0 +1,372 @@
+Mar  6 11:48:58 CaberteUbuntu systemd-logind[542]: New seat seat0.
+Mar  6 11:48:58 CaberteUbuntu systemd-logind[542]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar  6 11:48:58 CaberteUbuntu systemd-logind[542]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar  6 11:48:58 CaberteUbuntu systemd-logind[542]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar  6 11:49:05 CaberteUbuntu gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Mar  6 11:49:05 CaberteUbuntu systemd-logind[542]: New session c1 of user gdm.
+Mar  6 11:49:05 CaberteUbuntu systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Mar  6 11:49:06 CaberteUbuntu gnome-keyring-daemon[847]: couldn't access control socket: /run/user/121/keyring/control: No such file or directory
+Mar  6 11:49:15 CaberteUbuntu polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.30 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  6 11:49:24 CaberteUbuntu gdm-password]: pam_unix(gdm-password:session): session opened for user caberte by (uid=0)
+Mar  6 11:49:24 CaberteUbuntu systemd: pam_unix(systemd-user:session): session opened for user caberte by (uid=0)
+Mar  6 11:49:24 CaberteUbuntu systemd-logind[542]: New session 2 of user caberte.
+Mar  6 11:49:28 CaberteUbuntu gnome-keyring-daemon[1399]: The Secret Service was already initialized
+Mar  6 11:49:29 CaberteUbuntu polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.76 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  6 11:49:38 CaberteUbuntu dbus-daemon[543]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar  6 11:50:30 CaberteUbuntu sudo:  caberte : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/bin/apt install net-tools
+Mar  6 11:52:13 CaberteUbuntu sudo:  caberte : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/sbin/usermod -aG sudo caberte
+Mar  6 11:52:28 CaberteUbuntu sudo:  caberte : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/bin/apt update
+Mar  6 11:52:50 CaberteUbuntu sudo:  caberte : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/sbin/visudo
+Mar  6 11:53:44 CaberteUbuntu su[3260]: Successful su for root by caberte
+Mar  6 11:53:44 CaberteUbuntu su[3260]: + /dev/pts/0 caberte:root
+Mar  6 11:53:44 CaberteUbuntu su[3260]: pam_unix(su:session): session opened for user root by (uid=1000)
+Mar  6 11:53:44 CaberteUbuntu su[3260]: pam_systemd(su:session): Cannot create session: Already occupied by a session
+Mar  6 11:56:53 CaberteUbuntu usermod[4079]: add 'caberte' to group 'sudo'
+Mar  6 11:56:53 CaberteUbuntu usermod[4079]: add 'caberte' to shadow group 'sudo'
+Mar  6 11:56:57 CaberteUbuntu su[3260]: pam_unix(su:session): session closed for user root
+Mar  6 11:57:17 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/bin/apt install net-tools
+Mar  6 11:57:17 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 11:57:22 CaberteUbuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:02:34 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/bin/apt install git
+Mar  6 12:02:34 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 12:02:45 CaberteUbuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:10:53 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/bin/apt upgrade
+Mar  6 12:10:53 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 12:11:14 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/bin/apt install upgrade
+Mar  6 12:11:14 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 12:11:14 CaberteUbuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:11:58 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/bin/apt upgrade
+Mar  6 12:11:58 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/bin/apt update
+Mar  6 12:11:58 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 12:11:58 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 12:11:58 CaberteUbuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:12:03 CaberteUbuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:12:11 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/bin/apt upgrade
+Mar  6 12:12:11 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/bin/apt update -y
+Mar  6 12:12:11 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 12:12:11 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 12:12:11 CaberteUbuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:12:13 CaberteUbuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:16:10 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+Mar  6 12:16:10 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/bin/apt update
+Mar  6 12:16:10 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 12:16:10 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 12:16:10 CaberteUbuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:16:13 CaberteUbuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:16:17 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/bin/apt upgrade
+Mar  6 12:16:17 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 12:16:17 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/bin/apt update
+Mar  6 12:16:17 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 12:16:17 CaberteUbuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:16:21 CaberteUbuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:17:01 CaberteUbuntu CRON[8346]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  6 12:17:01 CaberteUbuntu CRON[8346]: pam_unix(cron:session): session closed for user root
+Mar  6 12:17:34 CaberteUbuntu systemd-logind[542]: System is powering down.
+Mar  6 12:17:34 CaberteUbuntu polkitd(authority=local): Unregistered Authentication Agent for unix-session:2 (system bus name :1.76, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8) (disconnected from bus)
+Mar  6 12:21:45 CaberteUbuntu systemd-logind[630]: New seat seat0.
+Mar  6 12:21:45 CaberteUbuntu systemd-logind[630]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar  6 12:21:45 CaberteUbuntu systemd-logind[630]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar  6 12:21:45 CaberteUbuntu systemd-logind[630]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar  6 12:21:51 CaberteUbuntu gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Mar  6 12:21:51 CaberteUbuntu systemd-logind[630]: New session c1 of user gdm.
+Mar  6 12:21:51 CaberteUbuntu systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Mar  6 12:21:59 CaberteUbuntu polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.29 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  6 12:22:22 CaberteUbuntu dbus-daemon[570]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar  6 12:24:05 CaberteUbuntu gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=caberte
+Mar  6 12:24:10 CaberteUbuntu gdm-password]: pam_unix(gdm-password:session): session opened for user caberte by (uid=0)
+Mar  6 12:24:10 CaberteUbuntu systemd: pam_unix(systemd-user:session): session opened for user caberte by (uid=0)
+Mar  6 12:24:10 CaberteUbuntu systemd-logind[630]: New session 2 of user caberte.
+Mar  6 12:24:13 CaberteUbuntu polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.76 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  6 12:24:37 CaberteUbuntu dbus-daemon[570]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar  6 12:25:17 CaberteUbuntu pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Mar  6 12:25:17 CaberteUbuntu pkexec[1799]: caberte: Executing command [USER=root] [TTY=unknown] [CWD=/home/caberte] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Mar  6 12:29:11 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/bin/apt install openssh-client
+Mar  6 12:29:11 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 12:29:18 CaberteUbuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:29:52 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/bin/apt upgradde
+Mar  6 12:29:52 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/bin/apt update
+Mar  6 12:29:52 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 12:29:52 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 12:29:52 CaberteUbuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:29:56 CaberteUbuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:30:14 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/bin/apt update
+Mar  6 12:30:14 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/bin/apt upgrade
+Mar  6 12:30:14 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 12:30:14 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 12:30:15 CaberteUbuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:30:17 CaberteUbuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:30:27 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+Mar  6 12:30:27 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/bin/apt update
+Mar  6 12:30:27 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 12:30:27 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 12:30:30 CaberteUbuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:31:16 CaberteUbuntu pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Mar  6 12:31:16 CaberteUbuntu pkexec[3896]: caberte: Executing command [USER=root] [TTY=unknown] [CWD=/home/caberte] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Mar  6 12:36:43 CaberteUbuntu gdm-password]: gkr-pam: unlocked login keyring
+Mar  6 12:42:14 CaberteUbuntu polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.76 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  6 12:42:14 CaberteUbuntu polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.29 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  6 12:42:14 CaberteUbuntu polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.76 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  6 12:42:14 CaberteUbuntu polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.29 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  6 12:42:25 CaberteUbuntu systemd-logind[630]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar  6 12:42:25 CaberteUbuntu systemd-logind[630]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar  6 12:42:25 CaberteUbuntu systemd-logind[630]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar  6 12:43:50 CaberteUbuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:46:15 CaberteUbuntu pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Mar  6 12:46:15 CaberteUbuntu pkexec[20501]: caberte: Executing command [USER=root] [TTY=unknown] [CWD=/home/caberte] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Mar  6 12:46:17 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/sbin/ufw allow ssh
+Mar  6 12:46:17 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 12:46:17 CaberteUbuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:46:24 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/sbin/ufw allow 2222
+Mar  6 12:46:24 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 12:46:24 CaberteUbuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:47:49 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/sbin/service ssh start
+Mar  6 12:47:49 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 12:47:50 CaberteUbuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:47:58 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/sbin/service ssh start
+Mar  6 12:47:58 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 12:47:59 CaberteUbuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:48:04 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/bin/apt install ssh
+Mar  6 12:48:04 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 12:48:12 CaberteUbuntu useradd[20879]: new user: name=sshd, UID=122, GID=65534, home=/run/sshd, shell=/usr/sbin/nologin
+Mar  6 12:48:12 CaberteUbuntu usermod[20885]: change user 'sshd' password
+Mar  6 12:48:12 CaberteUbuntu chage[20890]: changed password expiry for sshd
+Mar  6 12:48:12 CaberteUbuntu sshd[20992]: Server listening on 0.0.0.0 port 22.
+Mar  6 12:48:12 CaberteUbuntu sshd[20992]: Server listening on :: port 22.
+Mar  6 12:48:16 CaberteUbuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:48:21 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/sbin/service ssh start
+Mar  6 12:48:21 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 12:48:21 CaberteUbuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:48:57 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/bin/apt install systemctl
+Mar  6 12:48:57 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 12:48:58 CaberteUbuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:49:16 CaberteUbuntu pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Mar  6 12:49:16 CaberteUbuntu pkexec[22091]: caberte: Executing command [USER=root] [TTY=unknown] [CWD=/home/caberte] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Mar  6 12:49:26 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/bin/apt install systemd
+Mar  6 12:49:26 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 12:49:26 CaberteUbuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:49:51 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/bin/systemctl enable application.service
+Mar  6 12:49:51 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 12:49:51 CaberteUbuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:50:01 CaberteUbuntu CRON[22146]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  6 12:50:01 CaberteUbuntu CRON[22146]: pam_unix(cron:session): session closed for user root
+Mar  6 12:50:19 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/bin/apt update
+Mar  6 12:50:19 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 12:50:23 CaberteUbuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:50:32 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/bin/apt install systemd
+Mar  6 12:50:32 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 12:50:32 CaberteUbuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:51:39 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/bin/systemctl enable ssh
+Mar  6 12:51:39 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 12:51:39 CaberteUbuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:51:49 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/bin/systemctl status ssj
+Mar  6 12:51:49 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 12:51:49 CaberteUbuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:51:51 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/bin/systemctl status ssh
+Mar  6 12:51:51 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 12:52:05 CaberteUbuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:52:15 CaberteUbuntu pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Mar  6 12:52:15 CaberteUbuntu pkexec[22761]: caberte: Executing command [USER=root] [TTY=unknown] [CWD=/home/caberte] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Mar  6 13:00:13 CaberteUbuntu gdm-password]: gkr-pam: unlocked login keyring
+Mar  6 13:00:40 CaberteUbuntu sshd[22839]: Connection closed by authenticating user caberte 192.168.56.107 port 39212 [preauth]
+Mar  6 13:00:40 CaberteUbuntu sshd[22847]: Connection closed by authenticating user caberte 192.168.56.107 port 39214 [preauth]
+Mar  6 13:00:44 CaberteUbuntu sshd[22858]: Accepted password for caberte from 192.168.56.107 port 39216 ssh2
+Mar  6 13:00:44 CaberteUbuntu sshd[22858]: pam_unix(sshd:session): session opened for user caberte by (uid=0)
+Mar  6 13:00:44 CaberteUbuntu systemd-logind[630]: New session 5 of user caberte.
+Mar  6 13:00:44 CaberteUbuntu sshd[22929]: Received disconnect from 192.168.56.107 port 39216:11: disconnected by user
+Mar  6 13:00:44 CaberteUbuntu sshd[22929]: Disconnected from user caberte 192.168.56.107 port 39216
+Mar  6 13:00:44 CaberteUbuntu sshd[22858]: pam_unix(sshd:session): session closed for user caberte
+Mar  6 13:00:45 CaberteUbuntu systemd-logind[630]: Removed session 5.
+Mar  6 13:00:56 CaberteUbuntu sshd[22973]: Connection closed by authenticating user caberte 192.168.56.107 port 39220 [preauth]
+Mar  6 13:00:56 CaberteUbuntu sshd[22981]: Accepted publickey for caberte from 192.168.56.107 port 39222 ssh2: RSA SHA256:g/nbdAJCC3qRCleXQSL/xv1qtPnMvf3/H7G/VuI1mqM
+Mar  6 13:00:56 CaberteUbuntu sshd[22981]: pam_unix(sshd:session): session opened for user caberte by (uid=0)
+Mar  6 13:00:56 CaberteUbuntu systemd-logind[630]: New session 6 of user caberte.
+Mar  6 13:00:56 CaberteUbuntu sshd[23029]: Received disconnect from 192.168.56.107 port 39222:11: disconnected by user
+Mar  6 13:00:56 CaberteUbuntu sshd[23029]: Disconnected from user caberte 192.168.56.107 port 39222
+Mar  6 13:00:56 CaberteUbuntu sshd[22981]: pam_unix(sshd:session): session closed for user caberte
+Mar  6 13:00:56 CaberteUbuntu systemd-logind[630]: Removed session 6.
+Mar  6 13:01:07 CaberteUbuntu sshd[23064]: Connection closed by authenticating user caberte 192.168.56.107 port 39224 [preauth]
+Mar  6 13:01:07 CaberteUbuntu sshd[23072]: Accepted publickey for caberte from 192.168.56.107 port 39226 ssh2: RSA SHA256:g/nbdAJCC3qRCleXQSL/xv1qtPnMvf3/H7G/VuI1mqM
+Mar  6 13:01:07 CaberteUbuntu sshd[23072]: pam_unix(sshd:session): session opened for user caberte by (uid=0)
+Mar  6 13:01:07 CaberteUbuntu systemd-logind[630]: New session 7 of user caberte.
+Mar  6 13:01:07 CaberteUbuntu sshd[23118]: Received disconnect from 192.168.56.107 port 39226:11: disconnected by user
+Mar  6 13:01:07 CaberteUbuntu sshd[23118]: Disconnected from user caberte 192.168.56.107 port 39226
+Mar  6 13:01:07 CaberteUbuntu sshd[23072]: pam_unix(sshd:session): session closed for user caberte
+Mar  6 13:01:07 CaberteUbuntu systemd-logind[630]: Removed session 7.
+Mar  6 13:13:03 CaberteUbuntu gdm-password]: gkr-pam: unlocked login keyring
+Mar  6 13:13:29 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/sbin/ufw status
+Mar  6 13:13:29 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 13:13:29 CaberteUbuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 13:13:38 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/sbin/ufw allow ssh
+Mar  6 13:13:38 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 13:13:38 CaberteUbuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 13:13:46 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/sbin/ufw enable
+Mar  6 13:13:46 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 13:13:47 CaberteUbuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 13:13:54 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/sbin/ufw status
+Mar  6 13:13:54 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 13:13:54 CaberteUbuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 16:14:12 CaberteUbuntu systemd-logind[714]: New seat seat0.
+Mar  7 16:14:12 CaberteUbuntu systemd-logind[714]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar  7 16:14:12 CaberteUbuntu systemd-logind[714]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar  7 16:14:12 CaberteUbuntu systemd-logind[714]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar  7 16:14:16 CaberteUbuntu sshd[807]: Server listening on 0.0.0.0 port 22.
+Mar  7 16:14:16 CaberteUbuntu sshd[807]: Server listening on :: port 22.
+Mar  7 16:14:18 CaberteUbuntu gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Mar  7 16:14:19 CaberteUbuntu systemd-logind[714]: New session c1 of user gdm.
+Mar  7 16:14:19 CaberteUbuntu systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Mar  7 16:14:19 CaberteUbuntu sshd[807]: Received SIGHUP; restarting.
+Mar  7 16:14:19 CaberteUbuntu sshd[807]: Server listening on 0.0.0.0 port 22.
+Mar  7 16:14:19 CaberteUbuntu sshd[807]: Server listening on :: port 22.
+Mar  7 16:14:19 CaberteUbuntu sshd[807]: Received SIGHUP; restarting.
+Mar  7 16:14:19 CaberteUbuntu sshd[807]: Server listening on 0.0.0.0 port 22.
+Mar  7 16:14:19 CaberteUbuntu sshd[807]: Server listening on :: port 22.
+Mar  7 16:14:19 CaberteUbuntu sshd[807]: Received SIGHUP; restarting.
+Mar  7 16:14:19 CaberteUbuntu sshd[807]: Server listening on 0.0.0.0 port 22.
+Mar  7 16:14:19 CaberteUbuntu sshd[807]: Server listening on :: port 22.
+Mar  7 16:14:19 CaberteUbuntu sshd[807]: Received SIGHUP; restarting.
+Mar  7 16:14:19 CaberteUbuntu sshd[807]: Server listening on 0.0.0.0 port 22.
+Mar  7 16:14:19 CaberteUbuntu sshd[807]: Server listening on :: port 22.
+Mar  7 16:14:35 CaberteUbuntu polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.35 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  7 16:14:49 CaberteUbuntu gdm-password]: pam_unix(gdm-password:session): session opened for user caberte by (uid=0)
+Mar  7 16:14:49 CaberteUbuntu systemd: pam_unix(systemd-user:session): session opened for user caberte by (uid=0)
+Mar  7 16:14:49 CaberteUbuntu systemd-logind[714]: New session 2 of user caberte.
+Mar  7 16:14:52 CaberteUbuntu polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.82 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  7 16:14:56 CaberteUbuntu dbus-daemon[687]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar  7 16:16:01 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/bin/apt install openssh-server
+Mar  7 16:16:01 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  7 16:16:02 CaberteUbuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 16:17:01 CaberteUbuntu CRON[2657]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  7 16:17:01 CaberteUbuntu CRON[2657]: pam_unix(cron:session): session closed for user root
+Mar  7 16:18:59 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/sbin/service ssh start
+Mar  7 16:18:59 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  7 16:18:59 CaberteUbuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 16:19:08 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/sbin/ufw allow ssh
+Mar  7 16:19:08 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  7 16:19:08 CaberteUbuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 16:19:13 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/sbin/ufw enable
+Mar  7 16:19:13 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  7 16:19:13 CaberteUbuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 16:20:24 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/bin/apt install ansible
+Mar  7 16:20:24 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+                                                                                         Mar  7 16:24:49 CaberteUbuntu systemd-logind[666]: New seat seat0.
+Mar  7 16:24:49 CaberteUbuntu systemd-logind[666]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar  7 16:24:49 CaberteUbuntu systemd-logind[666]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar  7 16:24:49 CaberteUbuntu systemd-logind[666]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar  7 16:24:52 CaberteUbuntu sshd[807]: Server listening on 0.0.0.0 port 22.
+Mar  7 16:24:52 CaberteUbuntu sshd[807]: Server listening on :: port 22.
+Mar  7 16:24:54 CaberteUbuntu gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Mar  7 16:24:54 CaberteUbuntu systemd-logind[666]: New session c1 of user gdm.
+Mar  7 16:24:54 CaberteUbuntu systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Mar  7 16:24:54 CaberteUbuntu sshd[807]: Received SIGHUP; restarting.
+Mar  7 16:24:54 CaberteUbuntu sshd[807]: Server listening on 0.0.0.0 port 22.
+Mar  7 16:24:54 CaberteUbuntu sshd[807]: Server listening on :: port 22.
+Mar  7 16:24:54 CaberteUbuntu sshd[807]: Received SIGHUP; restarting.
+Mar  7 16:24:54 CaberteUbuntu sshd[807]: Server listening on 0.0.0.0 port 22.
+Mar  7 16:24:54 CaberteUbuntu sshd[807]: Server listening on :: port 22.
+Mar  7 16:24:54 CaberteUbuntu sshd[807]: Received SIGHUP; restarting.
+Mar  7 16:24:54 CaberteUbuntu sshd[807]: Server listening on 0.0.0.0 port 22.
+Mar  7 16:24:54 CaberteUbuntu sshd[807]: Server listening on :: port 22.
+Mar  7 16:24:54 CaberteUbuntu sshd[807]: Received SIGHUP; restarting.
+Mar  7 16:24:54 CaberteUbuntu sshd[807]: Server listening on 0.0.0.0 port 22.
+Mar  7 16:24:54 CaberteUbuntu sshd[807]: Server listening on :: port 22.
+Mar  7 16:25:01 CaberteUbuntu polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.32 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  7 16:25:09 CaberteUbuntu gdm-password]: pam_unix(gdm-password:session): session opened for user caberte by (uid=0)
+Mar  7 16:25:09 CaberteUbuntu systemd: pam_unix(systemd-user:session): session opened for user caberte by (uid=0)
+Mar  7 16:25:09 CaberteUbuntu systemd-logind[666]: New session 2 of user caberte.
+Mar  7 16:25:12 CaberteUbuntu polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.78 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  7 16:25:24 CaberteUbuntu dbus-daemon[680]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar  7 16:26:09 CaberteUbuntu sudo:  caberte : TTY=pts/0 ; PWD=/home/caberte ; USER=root ; COMMAND=/bin/nano /etc/hostname
+Mar  7 16:26:09 CaberteUbuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  7 16:26:21 CaberteUbuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 16:26:23 CaberteUbuntu systemd-logind[666]: System is rebooting.
+Mar  7 16:26:24 CaberteUbuntu sshd[807]: Received signal 15; terminating.
+Mar  7 16:26:51 ControlNode systemd-logind[704]: New seat seat0.
+Mar  7 16:26:51 ControlNode systemd-logind[704]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar  7 16:26:51 ControlNode systemd-logind[704]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar  7 16:26:51 ControlNode systemd-logind[704]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar  7 16:26:54 ControlNode sshd[802]: Server listening on 0.0.0.0 port 22.
+Mar  7 16:26:54 ControlNode sshd[802]: Server listening on :: port 22.
+Mar  7 16:26:57 ControlNode gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Mar  7 16:26:57 ControlNode systemd-logind[704]: New session c1 of user gdm.
+Mar  7 16:26:57 ControlNode systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Mar  7 16:26:57 ControlNode sshd[802]: Received SIGHUP; restarting.
+Mar  7 16:26:57 ControlNode sshd[802]: Server listening on 0.0.0.0 port 22.
+Mar  7 16:26:57 ControlNode sshd[802]: Server listening on :: port 22.
+Mar  7 16:26:57 ControlNode sshd[802]: Received SIGHUP; restarting.
+Mar  7 16:26:57 ControlNode sshd[802]: Server listening on 0.0.0.0 port 22.
+Mar  7 16:26:57 ControlNode sshd[802]: Server listening on :: port 22.
+Mar  7 16:26:57 ControlNode sshd[802]: Received SIGHUP; restarting.
+Mar  7 16:26:57 ControlNode sshd[802]: Server listening on 0.0.0.0 port 22.
+Mar  7 16:26:57 ControlNode sshd[802]: Server listening on :: port 22.
+Mar  7 16:27:16 ControlNode polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.32 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  7 16:27:24 ControlNode gdm-password]: pam_unix(gdm-password:session): session opened for user caberte by (uid=0)
+Mar  7 16:27:24 ControlNode systemd: pam_unix(systemd-user:session): session opened for user caberte by (uid=0)
+Mar  7 16:27:24 ControlNode systemd-logind[704]: New session 2 of user caberte.
+Mar  7 16:27:27 ControlNode polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.78 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  7 16:27:33 ControlNode dbus-daemon[690]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar  7 16:27:41 ControlNode sshd[1702]: Accepted publickey for caberte from 192.168.56.107 port 39832 ssh2: RSA SHA256:g/nbdAJCC3qRCleXQSL/xv1qtPnMvf3/H7G/VuI1mqM
+Mar  7 16:27:41 ControlNode sshd[1702]: pam_unix(sshd:session): session opened for user caberte by (uid=0)
+Mar  7 16:27:41 ControlNode systemd-logind[704]: New session 4 of user caberte.
+Mar  7 16:27:49 ControlNode sshd[1775]: Received disconnect from 192.168.56.107 port 39832:11: disconnected by user
+Mar  7 16:27:49 ControlNode sshd[1775]: Disconnected from user caberte 192.168.56.107 port 39832
+Mar  7 16:27:49 ControlNode sshd[1702]: pam_unix(sshd:session): session closed for user caberte
+Mar  7 16:27:49 ControlNode systemd-logind[704]: Removed session 4.
+Mar  7 16:31:50 ControlNode sshd[2039]: Connection closed by authenticating user caberte 192.168.56.107 port 40968 [preauth]
+Mar  7 16:31:50 ControlNode sshd[2041]: Accepted publickey for caberte from 192.168.56.107 port 40980 ssh2: RSA SHA256:g/nbdAJCC3qRCleXQSL/xv1qtPnMvf3/H7G/VuI1mqM
+Mar  7 16:31:50 ControlNode sshd[2041]: pam_unix(sshd:session): session opened for user caberte by (uid=0)
+Mar  7 16:31:50 ControlNode systemd-logind[704]: New session 5 of user caberte.
+Mar  7 16:31:50 ControlNode sshd[2086]: Received disconnect from 192.168.56.107 port 40980:11: disconnected by user
+Mar  7 16:31:50 ControlNode sshd[2086]: Disconnected from user caberte 192.168.56.107 port 40980
+Mar  7 16:31:50 ControlNode sshd[2041]: pam_unix(sshd:session): session closed for user caberte
+Mar  7 16:31:50 ControlNode systemd-logind[704]: Removed session 5.
+Mar  7 16:34:31 ControlNode sshd[2093]: Connection closed by authenticating user caberte 192.168.56.107 port 36710 [preauth]
+Mar  7 16:34:31 ControlNode sshd[2095]: Connection closed by authenticating user caberte 192.168.56.107 port 36714 [preauth]
+Mar  7 16:34:31 ControlNode sshd[2097]: Accepted publickey for caberte from 192.168.56.107 port 36718 ssh2: RSA SHA256:g/nbdAJCC3qRCleXQSL/xv1qtPnMvf3/H7G/VuI1mqM
+Mar  7 16:34:31 ControlNode sshd[2097]: pam_unix(sshd:session): session opened for user caberte by (uid=0)
+Mar  7 16:34:31 ControlNode systemd-logind[704]: New session 6 of user caberte.
+Mar  7 16:34:31 ControlNode sshd[2142]: Received disconnect from 192.168.56.107 port 36718:11: disconnected by user
+Mar  7 16:34:31 ControlNode sshd[2142]: Disconnected from user caberte 192.168.56.107 port 36718
+Mar  7 16:34:31 ControlNode sshd[2097]: pam_unix(sshd:session): session closed for user caberte
+Mar  7 16:34:31 ControlNode systemd-logind[704]: Removed session 6.
+Mar  7 16:45:11 ControlNode sshd[2187]: Accepted publickey for caberte from 192.168.56.107 port 49680 ssh2: RSA SHA256:g/nbdAJCC3qRCleXQSL/xv1qtPnMvf3/H7G/VuI1mqM
+Mar  7 16:45:11 ControlNode sshd[2187]: pam_unix(sshd:session): session opened for user caberte by (uid=0)
+Mar  7 16:45:11 ControlNode systemd-logind[704]: New session 7 of user caberte.
+Mar  7 16:45:11 ControlNode sudo:  caberte : TTY=pts/1 ; PWD=/home/caberte ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-njuufuocoatsfulocgcwbspqneevtrhe; /usr/bin/python /home/caberte/.ansible/tmp/ansible-tmp-1709801111.19-20975700742102/setup.py
+Mar  7 16:45:11 ControlNode sudo: pam_unix(sudo:session): session opened for user root by caberte(uid=0)
+Mar  7 16:45:12 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 16:45:12 ControlNode sudo:  caberte : TTY=pts/1 ; PWD=/home/caberte ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-clmqhsvksxivtzoihjnihrgwcuwbmowx; sudo dpkg --configure -a
+Mar  7 16:45:12 ControlNode sudo: pam_unix(sudo:session): session opened for user root by caberte(uid=0)
+Mar  7 16:45:12 ControlNode sudo:     root : TTY=pts/1 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/bin/dpkg --configure -a
+Mar  7 16:45:12 ControlNode sudo: pam_unix(sudo:session): session opened for user root by caberte(uid=0)
+Mar  7 16:45:12 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 16:45:12 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 16:45:13 ControlNode sudo:  caberte : TTY=pts/1 ; PWD=/home/caberte ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wwavuklrpxmvayzkmvhdgpgciethmcwh; /usr/bin/python /home/caberte/.ansible/tmp/ansible-tmp-1709801113.05-165142396097427/apt.py
+Mar  7 16:45:13 ControlNode sudo: pam_unix(sudo:session): session opened for user root by caberte(uid=0)
+Mar  7 16:45:24 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 16:46:24 ControlNode sshd[2232]: Received disconnect from 192.168.56.107 port 49680:11: disconnected by user
+Mar  7 16:46:24 ControlNode sshd[2232]: Disconnected from user caberte 192.168.56.107 port 49680
+Mar  7 16:46:24 ControlNode systemd-logind[704]: Removed session 7.
+Mar  7 16:46:24 ControlNode sshd[2187]: pam_unix(sshd:session): session closed for user caberte
+Mar  7 16:46:26 ControlNode sshd[2873]: Accepted publickey for caberte from 192.168.56.107 port 47884 ssh2: RSA SHA256:g/nbdAJCC3qRCleXQSL/xv1qtPnMvf3/H7G/VuI1mqM
+Mar  7 16:46:26 ControlNode sshd[2873]: pam_unix(sshd:session): session opened for user caberte by (uid=0)
+Mar  7 16:46:26 ControlNode systemd-logind[704]: New session 8 of user caberte.
+Mar  7 16:46:26 ControlNode sudo:  caberte : TTY=pts/1 ; PWD=/home/caberte ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-niqcjrrmtavyyccafznsoorsayewuaxu; /usr/bin/python /home/caberte/.ansible/tmp/ansible-tmp-1709801186.02-208597208170788/setup.py
+Mar  7 16:46:26 ControlNode sudo: pam_unix(sudo:session): session opened for user root by caberte(uid=0)
+Mar  7 16:46:26 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 16:46:26 ControlNode sudo:  caberte : TTY=pts/1 ; PWD=/home/caberte ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-yfzqgsozdyrgtzkiijoyxzhrmfxtsrin; sudo dpkg --configure -a
+Mar  7 16:46:26 ControlNode sudo: pam_unix(sudo:session): session opened for user root by caberte(uid=0)
+Mar  7 16:46:26 ControlNode sudo:     root : TTY=pts/1 ; PWD=/home/caberte ; USER=root ; COMMAND=/usr/bin/dpkg --configure -a
+Mar  7 16:46:26 ControlNode sudo: pam_unix(sudo:session): session opened for user root by caberte(uid=0)
+Mar  7 16:46:26 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 16:46:26 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 16:46:26 ControlNode sudo:  caberte : TTY=pts/1 ; PWD=/home/caberte ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vwkjskprvekvmmxpxfvmnyvewwmfbgtr; /usr/bin/python /home/caberte/.ansible/tmp/ansible-tmp-1709801186.84-16900268679725/apt.py
+Mar  7 16:46:26 ControlNode sudo: pam_unix(sudo:session): session opened for user root by caberte(uid=0)
+Mar  7 16:46:28 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 16:46:28 ControlNode sudo:  caberte : TTY=pts/1 ; PWD=/home/caberte ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vjyhufqvuhvfbbfpgqqyyzlbmmtxzmrk; /usr/bin/python /home/caberte/.ansible/tmp/ansible-tmp-1709801188.6-277996687498196/setup.py
+Mar  7 16:46:28 ControlNode sudo: pam_unix(sudo:session): session opened for user root by caberte(uid=0)
+Mar  7 16:46:28 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 16:46:29 ControlNode sudo:  caberte : TTY=pts/1 ; PWD=/home/caberte ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-rmvrkumzvjllursmsodlhsuulhnlapxc; /usr/bin/python /home/caberte/.ansible/tmp/ansible-tmp-1709801189.05-239580392108517/slurp.py
+Mar  7 16:46:29 ControlNode sudo: pam_unix(sudo:session): session opened for user root by caberte(uid=0)
+Mar  7 16:46:29 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 16:46:29 ControlNode sudo:  caberte : TTY=pts/1 ; PWD=/home/caberte ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-slwhovqbghlfjdmjbmeraqqkwgdqqjwe; /usr/bin/python /home/caberte/.ansible/tmp/ansible-tmp-1709801189.31-222410036579882/slurp.py
+Mar  7 16:46:29 ControlNode sudo: pam_unix(sudo:session): session opened for user root by caberte(uid=0)
